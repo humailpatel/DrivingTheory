@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F22B3CA29BA912C00C6D527 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22B3C929BA912C00C6D527 /* HomeView.swift */; };
+		5F22B3CD29BA923C00C6D527 /* HighwayCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22B3CC29BA923C00C6D527 /* HighwayCodeView.swift */; };
+		5F22B3CF29BA925400C6D527 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22B3CE29BA925400C6D527 /* SettingsView.swift */; };
+		5F91554B29BB797B00E16878 /* PracticeQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F91554A29BB797B00E16878 /* PracticeQuestions.swift */; };
+		5FBE9A0429BA4BAF0023A98B /* Driving_Theory_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE9A0329BA4BAF0023A98B /* Driving_Theory_TestApp.swift */; };
+		5FBE9A0629BA4BAF0023A98B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE9A0529BA4BAF0023A98B /* ContentView.swift */; };
+		5FBE9A0829BA4BB10023A98B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FBE9A0729BA4BB10023A98B /* Assets.xcassets */; };
+		5FBE9A0B29BA4BB10023A98B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FBE9A0A29BA4BB10023A98B /* Preview Assets.xcassets */; };
+		5FBE9A0D29BA4BB10023A98B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE9A0C29BA4BB10023A98B /* Persistence.swift */; };
+		5FBE9A1029BA4BB10023A98B /* Driving_Theory_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE9A0E29BA4BB10023A98B /* Driving_Theory_Test.xcdatamodeld */; };
+		5FBE9A1A29BA4BB20023A98B /* Driving_Theory_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE9A1929BA4BB20023A98B /* Driving_Theory_TestTests.swift */; };
+		5FBE9A2429BA4BB20023A98B /* Driving_Theory_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE9A2329BA4BB20023A98B /* Driving_Theory_TestUITests.swift */; };
+		5FBE9A2629BA4BB20023A98B /* Driving_Theory_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE9A2529BA4BB20023A98B /* Driving_Theory_TestUITestsLaunchTests.swift */; };
+		5FCBEC4729D3636C0092824E /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCBEC4629D3636C0092824E /* QuestionModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FBE9A1629BA4BB20023A98B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FBE99F829BA4BAF0023A98B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FBE99FF29BA4BAF0023A98B;
+			remoteInfo = "Driving Theory Test";
+		};
+		5FBE9A2029BA4BB20023A98B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FBE99F829BA4BAF0023A98B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FBE99FF29BA4BAF0023A98B;
+			remoteInfo = "Driving Theory Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F22B3C929BA912C00C6D527 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5F22B3CC29BA923C00C6D527 /* HighwayCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighwayCodeView.swift; sourceTree = "<group>"; };
+		5F22B3CE29BA925400C6D527 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5F91554A29BB797B00E16878 /* PracticeQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeQuestions.swift; sourceTree = "<group>"; };
+		5FBE9A0029BA4BAF0023A98B /* Driving Theory Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Driving Theory Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FBE9A0329BA4BAF0023A98B /* Driving_Theory_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driving_Theory_TestApp.swift; sourceTree = "<group>"; };
+		5FBE9A0529BA4BAF0023A98B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5FBE9A0729BA4BB10023A98B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FBE9A0A29BA4BB10023A98B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5FBE9A0C29BA4BB10023A98B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		5FBE9A0F29BA4BB10023A98B /* Driving_Theory_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Driving_Theory_Test.xcdatamodel; sourceTree = "<group>"; };
+		5FBE9A1529BA4BB20023A98B /* Driving Theory TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Driving Theory TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FBE9A1929BA4BB20023A98B /* Driving_Theory_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driving_Theory_TestTests.swift; sourceTree = "<group>"; };
+		5FBE9A1F29BA4BB20023A98B /* Driving Theory TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Driving Theory TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FBE9A2329BA4BB20023A98B /* Driving_Theory_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driving_Theory_TestUITests.swift; sourceTree = "<group>"; };
+		5FBE9A2529BA4BB20023A98B /* Driving_Theory_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driving_Theory_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5FCBEC4629D3636C0092824E /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FBE99FD29BA4BAF0023A98B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FBE9A1229BA4BB20023A98B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FBE9A1C29BA4BB20023A98B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FBE99F729BA4BAF0023A98B = {
+			isa = PBXGroup;
+			children = (
+				5FBE9A0229BA4BAF0023A98B /* Driving Theory Test */,
+				5FBE9A1829BA4BB20023A98B /* Driving Theory TestTests */,
+				5FBE9A2229BA4BB20023A98B /* Driving Theory TestUITests */,
+				5FBE9A0129BA4BAF0023A98B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FBE9A0129BA4BAF0023A98B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FBE9A0029BA4BAF0023A98B /* Driving Theory Test.app */,
+				5FBE9A1529BA4BB20023A98B /* Driving Theory TestTests.xctest */,
+				5FBE9A1F29BA4BB20023A98B /* Driving Theory TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FBE9A0229BA4BAF0023A98B /* Driving Theory Test */ = {
+			isa = PBXGroup;
+			children = (
+				5FCBEC4529D361380092824E /* ViewModels */,
+				5FCBEC4329D3611E0092824E /* Models */,
+				5FBE9A0329BA4BAF0023A98B /* Driving_Theory_TestApp.swift */,
+				5FBE9A0529BA4BAF0023A98B /* ContentView.swift */,
+				5F22B3C929BA912C00C6D527 /* HomeView.swift */,
+				5F22B3CC29BA923C00C6D527 /* HighwayCodeView.swift */,
+				5F22B3CE29BA925400C6D527 /* SettingsView.swift */,
+				5F91554A29BB797B00E16878 /* PracticeQuestions.swift */,
+				5FBE9A0729BA4BB10023A98B /* Assets.xcassets */,
+				5FBE9A0C29BA4BB10023A98B /* Persistence.swift */,
+				5FBE9A0E29BA4BB10023A98B /* Driving_Theory_Test.xcdatamodeld */,
+				5FBE9A0929BA4BB10023A98B /* Preview Content */,
+			);
+			path = "Driving Theory Test";
+			sourceTree = "<group>";
+		};
+		5FBE9A0929BA4BB10023A98B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5FBE9A0A29BA4BB10023A98B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5FBE9A1829BA4BB20023A98B /* Driving Theory TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FBE9A1929BA4BB20023A98B /* Driving_Theory_TestTests.swift */,
+			);
+			path = "Driving Theory TestTests";
+			sourceTree = "<group>";
+		};
+		5FBE9A2229BA4BB20023A98B /* Driving Theory TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FBE9A2329BA4BB20023A98B /* Driving_Theory_TestUITests.swift */,
+				5FBE9A2529BA4BB20023A98B /* Driving_Theory_TestUITestsLaunchTests.swift */,
+			);
+			path = "Driving Theory TestUITests";
+			sourceTree = "<group>";
+		};
+		5FCBEC4329D3611E0092824E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5FCBEC4629D3636C0092824E /* QuestionModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5FCBEC4529D361380092824E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FBE99FF29BA4BAF0023A98B /* Driving Theory Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FBE9A2929BA4BB20023A98B /* Build configuration list for PBXNativeTarget "Driving Theory Test" */;
+			buildPhases = (
+				5FBE99FC29BA4BAF0023A98B /* Sources */,
+				5FBE99FD29BA4BAF0023A98B /* Frameworks */,
+				5FBE99FE29BA4BAF0023A98B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Driving Theory Test";
+			productName = "Driving Theory Test";
+			productReference = 5FBE9A0029BA4BAF0023A98B /* Driving Theory Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FBE9A1429BA4BB20023A98B /* Driving Theory TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FBE9A2C29BA4BB20023A98B /* Build configuration list for PBXNativeTarget "Driving Theory TestTests" */;
+			buildPhases = (
+				5FBE9A1129BA4BB20023A98B /* Sources */,
+				5FBE9A1229BA4BB20023A98B /* Frameworks */,
+				5FBE9A1329BA4BB20023A98B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FBE9A1729BA4BB20023A98B /* PBXTargetDependency */,
+			);
+			name = "Driving Theory TestTests";
+			productName = "Driving Theory TestTests";
+			productReference = 5FBE9A1529BA4BB20023A98B /* Driving Theory TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5FBE9A1E29BA4BB20023A98B /* Driving Theory TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FBE9A2F29BA4BB20023A98B /* Build configuration list for PBXNativeTarget "Driving Theory TestUITests" */;
+			buildPhases = (
+				5FBE9A1B29BA4BB20023A98B /* Sources */,
+				5FBE9A1C29BA4BB20023A98B /* Frameworks */,
+				5FBE9A1D29BA4BB20023A98B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FBE9A2129BA4BB20023A98B /* PBXTargetDependency */,
+			);
+			name = "Driving Theory TestUITests";
+			productName = "Driving Theory TestUITests";
+			productReference = 5FBE9A1F29BA4BB20023A98B /* Driving Theory TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FBE99F829BA4BAF0023A98B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5FBE99FF29BA4BAF0023A98B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					5FBE9A1429BA4BB20023A98B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5FBE99FF29BA4BAF0023A98B;
+					};
+					5FBE9A1E29BA4BB20023A98B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5FBE99FF29BA4BAF0023A98B;
+					};
+				};
+			};
+			buildConfigurationList = 5FBE99FB29BA4BAF0023A98B /* Build configuration list for PBXProject "Driving Theory Test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FBE99F729BA4BAF0023A98B;
+			productRefGroup = 5FBE9A0129BA4BAF0023A98B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FBE99FF29BA4BAF0023A98B /* Driving Theory Test */,
+				5FBE9A1429BA4BB20023A98B /* Driving Theory TestTests */,
+				5FBE9A1E29BA4BB20023A98B /* Driving Theory TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FBE99FE29BA4BAF0023A98B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FBE9A0B29BA4BB10023A98B /* Preview Assets.xcassets in Resources */,
+				5FBE9A0829BA4BB10023A98B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FBE9A1329BA4BB20023A98B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FBE9A1D29BA4BB20023A98B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FBE99FC29BA4BAF0023A98B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F91554B29BB797B00E16878 /* PracticeQuestions.swift in Sources */,
+				5F22B3CF29BA925400C6D527 /* SettingsView.swift in Sources */,
+				5FBE9A1029BA4BB10023A98B /* Driving_Theory_Test.xcdatamodeld in Sources */,
+				5FBE9A0D29BA4BB10023A98B /* Persistence.swift in Sources */,
+				5FBE9A0629BA4BAF0023A98B /* ContentView.swift in Sources */,
+				5F22B3CD29BA923C00C6D527 /* HighwayCodeView.swift in Sources */,
+				5FCBEC4729D3636C0092824E /* QuestionModel.swift in Sources */,
+				5F22B3CA29BA912C00C6D527 /* HomeView.swift in Sources */,
+				5FBE9A0429BA4BAF0023A98B /* Driving_Theory_TestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FBE9A1129BA4BB20023A98B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FBE9A1A29BA4BB20023A98B /* Driving_Theory_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FBE9A1B29BA4BB20023A98B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FBE9A2429BA4BB20023A98B /* Driving_Theory_TestUITests.swift in Sources */,
+				5FBE9A2629BA4BB20023A98B /* Driving_Theory_TestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FBE9A1729BA4BB20023A98B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FBE99FF29BA4BAF0023A98B /* Driving Theory Test */;
+			targetProxy = 5FBE9A1629BA4BB20023A98B /* PBXContainerItemProxy */;
+		};
+		5FBE9A2129BA4BB20023A98B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FBE99FF29BA4BAF0023A98B /* Driving Theory Test */;
+			targetProxy = 5FBE9A2029BA4BB20023A98B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5FBE9A2729BA4BB20023A98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FBE9A2829BA4BB20023A98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FBE9A2A29BA4BB20023A98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Driving Theory Test/Preview Content\"";
+				DEVELOPMENT_TEAM = CH9R83J7SK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.humail.Driving-Theory-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FBE9A2B29BA4BB20023A98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Driving Theory Test/Preview Content\"";
+				DEVELOPMENT_TEAM = CH9R83J7SK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.humail.Driving-Theory-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5FBE9A2D29BA4BB20023A98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CH9R83J7SK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.humail.Driving-Theory-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Driving Theory Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Driving Theory Test";
+			};
+			name = Debug;
+		};
+		5FBE9A2E29BA4BB20023A98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CH9R83J7SK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.humail.Driving-Theory-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Driving Theory Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Driving Theory Test";
+			};
+			name = Release;
+		};
+		5FBE9A3029BA4BB20023A98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CH9R83J7SK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.humail.Driving-Theory-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Driving Theory Test";
+			};
+			name = Debug;
+		};
+		5FBE9A3129BA4BB20023A98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CH9R83J7SK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.humail.Driving-Theory-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Driving Theory Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FBE99FB29BA4BAF0023A98B /* Build configuration list for PBXProject "Driving Theory Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FBE9A2729BA4BB20023A98B /* Debug */,
+				5FBE9A2829BA4BB20023A98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FBE9A2929BA4BB20023A98B /* Build configuration list for PBXNativeTarget "Driving Theory Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FBE9A2A29BA4BB20023A98B /* Debug */,
+				5FBE9A2B29BA4BB20023A98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FBE9A2C29BA4BB20023A98B /* Build configuration list for PBXNativeTarget "Driving Theory TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FBE9A2D29BA4BB20023A98B /* Debug */,
+				5FBE9A2E29BA4BB20023A98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FBE9A2F29BA4BB20023A98B /* Build configuration list for PBXNativeTarget "Driving Theory TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FBE9A3029BA4BB20023A98B /* Debug */,
+				5FBE9A3129BA4BB20023A98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5FBE9A0E29BA4BB10023A98B /* Driving_Theory_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5FBE9A0F29BA4BB10023A98B /* Driving_Theory_Test.xcdatamodel */,
+			);
+			currentVersion = 5FBE9A0F29BA4BB10023A98B /* Driving_Theory_Test.xcdatamodel */;
+			path = Driving_Theory_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5FBE99F829BA4BAF0023A98B /* Project object */;
+}

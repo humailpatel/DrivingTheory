@@ -1,0 +1,18 @@
+{
+    "Introduction": {
+      "Purpose": "To provide the rules and advice for all road users, including pedestrians, cyclists, motorcyclists and drivers.",
+      "Status and application": "The Highway Code applies to England, Scotland and Wales and is essential reading for everyone who uses roads.",
+      "Important information": "The Highway Code is designed to help you pass your driving test and stay safe on the roads. It includes rules and advice for many different situations, from crossing the road as a pedestrian to overtaking other vehicles as a driver.",
+      "Other sources of information": "The Highway Code is just one of many sources of information on road safety. Other sources include the Road Safety Act, the Road Traffic Act, and the advice and guidance provided by road safety organisations such as the AA, RAC and Brake."
+    },
+    "Rules for pedestrians": {
+      "General guidance": "Pedestrians should always use footpaths or pavements where provided, and should never walk on the road where there is a safe alternative.",
+      "Crossings": {
+        "Zebra crossings": "At a zebra crossing, pedestrians have priority over vehicles. Pedestrians should look both ways before crossing and should not step out into the road until it is safe to do so.",
+        "Pelican crossings": "Pelican crossings have traffic lights that pedestrians can use to cross the road. Pedestrians should only cross when the green man is showing.",
+        "Toucan crossings": "Toucan crossings are like pelican crossings, but they also allow cyclists to cross.",
+        "Puffin crossings": "Puffin crossings have sensors that detect when pedestrians are crossing and adjust the crossing time accordingly.",
+        "School crossing patrols": "School crossing patrols are employed to help children cross the road safely. Drivers should always obey their signals and stop when requested to do so."
+      }
+    }
+}
